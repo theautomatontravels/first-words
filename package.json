@@ -1,0 +1,23 @@
+{
+  "name": "first-words",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theautomatontravels/first-words.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theautomatontravels/first-words/issues"
+  },
+  "homepage": "https://github.com/theautomatontravels/first-words#readme",
+  "dependencies": {
+    "ramda": "^0.27.1"
+  }
+}
