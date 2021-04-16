@@ -9,7 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-pos-tagger-server": "java -mx300m -cp stanford-pos-tagger/stanford-postagger-withModel.jar edu.stanford.nlp.tagger.maxent.MaxentTaggerServer -model edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger -port 2020"
   },
   "repository": {
     "type": "git",
