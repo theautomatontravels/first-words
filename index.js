@@ -7,7 +7,7 @@ import {
   ExistentialSentence,
 } from "./sentence.js";
 
-function randomSentence() {
+export function randomSentence() {
   const Sentence = sample([
     ConjunctiveSentence,
     DeclarativeSentence,
@@ -22,8 +22,8 @@ function randomInt(low, high) {
   return n + low;
 }
 
-console.log(
-  range(0, randomInt(3, 6))
-    .map(() => randomSentence())
-    .join(" ")
-);
+// console.log(
+//   range(0, randomInt(3, 6))
+//     .map(() => randomSentence())
+//     .join(" ")
+// );
